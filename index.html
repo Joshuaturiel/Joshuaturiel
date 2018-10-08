@@ -9,11 +9,12 @@
  
   <iframe id="palloncino" width="560" height="315" src="https://www.youtube.com/embed/iiEx-yKzRmY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   
- </img  src= " https://st2.depositphotos.com/2009363/9034/v/950/depositphotos_90344490-stock-illustration-red-balloon-icon.jpg ">
+  <iframe id="scoppiati" width="560" height="315" src="https://www.youtube.com/embed/wdW-__YSf1I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </body>
 <script>
 function scoppia() {
  document.getElementById("palloncino").style.display = "none";
+  document.getElementById("scoppiati").style.display = "block";
  document.body.style.backgroundColor= "red";
  document.getElementById("button2").style.display = "block";
  document.getElementById("button1").style.display = "none";
@@ -21,7 +22,8 @@ function scoppia() {
 }
 function rigonfia() { 
  document.body.style.backgroundColor= "white";
- document.getElementById("palloncino").style.display = "block";
+ document.getElementById("scoppiati").style.display = "block";
+ document.getElementById("palloncino").style.display = "none";
  document.getElementById("button1").style.display = "block";
  document.getElementById("button2").style.display = "none";
  document.getElementById("titolo").style.color = "black";
